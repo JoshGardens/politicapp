@@ -71,3 +71,49 @@ var textSpanMoney = TextSpan(
           print("URL can't be launched.");
         }
       });
+
+var textSpanFanPage = TextSpan(
+    style: const TextStyle(
+        color: Colors.blue, decoration: TextDecoration.underline),
+    //make link blue and underline
+    text:
+        "https://www.fanpage.it/politica/come-si-vota-per-le-elezioni-politiche-2022-fac-simile-delle-schede-per-camera-e-senato/",
+    recognizer: TapGestureRecognizer()
+      ..onTap = () async {
+        //on tap code here, you can navigate to other page or URL
+        var httpsFanPageUri = Uri(
+            scheme: 'https',
+            host: 'www.fanpage.it',
+            path:
+                '/politica/come-si-vota-per-le-elezioni-politiche-2022-fac-simile-delle-schede-per-camera-e-senato/');
+        var urllaunchable = await canLaunchUrl(
+            httpsFanPageUri); //canLaunch is from url_launcher package
+        if (urllaunchable) {
+          await launchUrl(
+              httpsFanPageUri); //launch is from url_launcher package to launch URL
+        } else {
+          print("URL can't be launched.");
+        }
+      });
+
+var textGov = TextSpan(
+    style: const TextStyle(
+        color: Colors.blue, decoration: TextDecoration.underline),
+    //make link blue and underline
+    text: "https://dait.interno.gov.it/elezioni/faq-elezioni-politiche-2022",
+    recognizer: TapGestureRecognizer()
+      ..onTap = () async {
+        //on tap code here, you can navigate to other page or URL
+        var httpsMoneyUri = Uri(
+            scheme: 'https',
+            host: 'dait.interno.gov.it',
+            path: '/elezioni/faq-elezioni-politiche-2022');
+        var urllaunchable = await canLaunchUrl(
+            httpsMoneyUri); //canLaunch is from url_launcher package
+        if (urllaunchable) {
+          await launchUrl(
+              httpsMoneyUri); //launch is from url_launcher package to launch URL
+        } else {
+          print("URL can't be launched.");
+        }
+      });

@@ -71,7 +71,7 @@ i tasti avranno un'animazione base:
               },
             ),
             RoundedButton(
-              buttonTitle: 'Linee guida',
+              buttonTitle: 'Linee Operative',
               buttonOnPressed: () {
                 Navigator.pushNamed(context, InformationScreen.id);
               },

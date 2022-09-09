@@ -33,7 +33,7 @@ const kPostPartyDetailsSizedBox = SizedBox(
 
 const kTitleTextStyle = TextStyle(
   color: Colors.white,
-  fontSize: 32,
+  fontSize: 33,
   fontWeight: FontWeight.w700,
 );
 
@@ -46,7 +46,13 @@ const kSloganTextStyle = TextStyle(
 
 const kSubtitleTextStyle = TextStyle(
   color: Colors.white,
-  fontSize: 22,
+  fontSize: 23,
+  fontWeight: FontWeight.w700,
+);
+
+const kSubSubtitleTextStyle = TextStyle(
+  color: Colors.white,
+  fontSize: 18,
   fontWeight: FontWeight.w700,
 );
 

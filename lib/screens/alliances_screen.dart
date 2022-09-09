@@ -27,7 +27,7 @@ class AlliancesScreen extends StatelessWidget {
         decoration: kPoliticappBackGroundTheme,
         child: Padding(
           padding:
-              const EdgeInsets.symmetric(horizontal: 60.0, vertical: 110.0),
+              const EdgeInsets.symmetric(horizontal: 40.0, vertical: 110.0),
           child: ListView(
             padding: kListViewPadding,
             children: [
@@ -80,7 +80,7 @@ class AlliancesScreen extends StatelessWidget {
               ),
               kPartyButtonsSizedBox,
               PartyButton(
-                buttonTitle: 'Italexit',
+                buttonTitle: 'ItalExit',
                 buttonImage: const AssetImage('images/italexit.png'),
                 buttonOnPressed: () {
                   Navigator.pushNamed(

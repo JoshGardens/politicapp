@@ -55,6 +55,18 @@ class ShowLinksDetails extends StatelessWidget {
               Text.rich(
                 textSpanMoney,
               ),
+              const SizedBox(
+                height: 5,
+              ),
+              Text.rich(
+                textSpanFanPage,
+              ),
+              const SizedBox(
+                height: 5,
+              ),
+              Text.rich(
+                textGov,
+              ),
               const SizedBox(height: 20),
             ],
           ),
