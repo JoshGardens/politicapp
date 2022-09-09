@@ -33,11 +33,15 @@ class InformationScreen extends StatelessWidget {
               ),
               kPrePartyDetailsSizedBox,
               RichText(
-                  text: const TextSpan(style: kParagraphTextStyle, children: [
-                TextSpan(text: 'L’attuale legge elettorale, chiamata '),
-                //TextSpan(text: 'Rosatellum' style: TextStyle(font)),          //need to extend kParagraphTextStyle with italic
-                TextSpan(text: ', in vigore dal 2017, prevede che: '),
-              ]))
+                text: const TextSpan(
+                  style: kParagraphTextStyle,
+                  children: [
+                    TextSpan(text: 'L’attuale legge elettorale, chiamata '),
+                    //TextSpan(text: 'Rosatellum' style: TextStyle(font)),          //need to extend kParagraphTextStyle with italic
+                    TextSpan(text: ', in vigore dal 2017, prevede che: '),
+                  ],
+                ),
+              ),
             ],
           ),
         ),
