@@ -1,7 +1,8 @@
 const Map<String, String> kCentroDestra = {
   'Coalizione': 'Centrodestra',
   'Slogan': '"Per l\'Italia"',
-  'Intro': 'questa è l\'introduzione',
+  'Intro':
+      'La coalizione di Centrodestra è un\'alleanza politica che raccoglie partiti e personalità di stampo nazional-conservatore, populista di destra e sovranista. \n\u00C8 guidata dai leader dei tre partiti più rappresentativi Giorgia Meloni, Matteo Salvini e Silvio Berlusconi.',
   'Politica Estera':
       '\u2022 Rispetto degli “impegni assunti nell’Alleanza Atlantica”, anche in merito all’adeguamento degli stanziamenti per la difesa \n\u2022 “Sostegno all’Ucraina di fronte all’invasione della Federazione Russa” \n\u2022 Revisione e negoziazione delle regole di bilancio stabilite dall’Unione Europea che impongono limiti al deficit e ai debiti che i paesi membri possono fare',
   'Economia e Welfare':
@@ -26,7 +27,8 @@ const Map<String, String> kCentroDestra = {
 const Map<String, String> kCentroSinistra = {
   'Coalizione': 'Centrosinistra',
   'Slogan': '"Insieme per un\'Italia Democratica e Progressista"',
-  'Intro': 'questa è l\'introduzione',
+  'Intro':
+      'La coalizione di Centrosinistra è un\’alleanza politica che conta partiti di stampo progressista-europeista, ambientalista e social-democratico.\n\u00C8 guidata dai leader dei partiti più rappresentativi Enrico Letta, Angelo Bonelli, Emma Bonino e Luigi Di Maio.',
   'Politica Estera':
       '\u2022 Forte integrazione con l’Unione Europea e riforma dei trattati per abolire il diritto di veto \n\u2022 Mantenimento delle alleanze occidentali e sostegno all’Ucraina contro l\'aggressione della Russia \n\u2022 Proposta molto moderata di «parametrare» il Patto di stabilità',
   'Economia e Welfare':
@@ -52,7 +54,8 @@ const Map<String, String> kCentroSinistra = {
 const Map<String, String> kTerzoPolo = {
   'Coalizione': 'Terzo Polo',
   'Slogan': '"Renew Europe, L\'Italia, sul serio"',
-  'Intro': 'questa è l\'introduzione',
+  'Intro':
+      'La coalizione Azione - Italia Viva, definita “Terzo Polo”, è un’alleanza politica di stampo social-liberale, europeista, atlantista e progressista. \u00C8 guidata dai leader dei due partiti Carlo Calenda e Matteo Renzi.',
   'Politica Estera':
       '\u2022 Approfondire e accelerare il processo di integrazione e federalismo nell’Unione Europea \n\u2022 Abolire la necessità del voto unanime nelle decisioni dell’Unione \n\u2022 Adottare una politica estera comune',
   'Economia e Welfare':
@@ -78,7 +81,8 @@ const Map<String, String> kTerzoPolo = {
 const Map<String, String> kMovimentoCinqueStelle = {
   'Coalizione': 'MoVimento 5 Stelle',
   'Slogan': '"Dalla parte Giusta, cuore e coraggio per l\'Italia di domani"',
-  'Intro': 'questa è l\'introduzione',
+  'Intro':
+      'Il MoVimento 5 Stelle è una forza politica di stampo social-populista ed ambientalista. \u00C8 guidata dal leader Giuseppe Conte.',
   'Politica Estera':
       '\u2022 Riforma del Patto di stabilità e crescita \n\u2022 No alla corsa al riarmo, sì al Progetto di difesa comune europea \n\u2022 Introduzione di un Energy recovery fund alimentato dall\'emissione di debito comune europeo',
   'Economia e Welfare':
@@ -104,7 +108,8 @@ const Map<String, String> kMovimentoCinqueStelle = {
 const Map<String, String> kItalexit = {
   'Coalizione': 'ItalExit',
   'Slogan': '"Per l\'Italia che non molla mai"',
-  'Intro': 'questa è l\'introduzione',
+  'Intro':
+      'ItalExit è un partito politico di stampo euroscettico, sovranista e populista. \u00C8 guidata dal leader Gianluigi Paragone.',
   'Politica Estera':
       '\u2022 Fuori l\'Italia dall\'Unione Europea \n\u2022 Stop all\'invio di armi all\'Ucraina',
   'Economia e Welfare':
@@ -129,7 +134,8 @@ const Map<String, String> kItalexit = {
 const Map<String, String> kUnionePopolare = {
   'Coalizione': 'Unione Popolare',
   'Slogan': '"L\'Italia di cui abbiamo bisogno"',
-  'Intro': 'questa è l\'introduzione',
+  'Intro':
+      'Unione Popolare è un\'alleanza politica che raccoglie diversi partiti e personalità legati alla sinistra ed estrema sinistra italiana, tra cui Potere al Popolo, Partito della Rifondazione Comunista e ManifestA.\n\u00C8 Guidata dall\'ex sindaco di Napoli Luigi De Magistris.',
   'Politica Estera':
       '\u2022 Operare per il superamento della NATO \n\u2022 Stop all\'invio di armi all\'Ucraina \n\u2022 Riconoscimento della Stato di Palestina',
   'Economia e Welfare':

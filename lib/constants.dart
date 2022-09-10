@@ -24,7 +24,7 @@ const kPartyButtonsSizedBox = SizedBox(height: 40);
 const kSloganSizedBox = SizedBox(height: 50);
 const kPrePartyDetailsSizedBox = SizedBox(height: 15);
 const kPostPartyDetailsSizedBox = SizedBox(
-  height: 30,
+  height: 40,
   width: 200,
   child: Divider(
     color: Colors.white,
