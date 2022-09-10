@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:politicapp/details/party_data.dart';
-
 import '../constants.dart';
 import '../party_screen_arguments.dart';
 
@@ -18,6 +16,7 @@ class AllianceDetailScreen extends StatelessWidget {
         title: Text(args.partyData['Coalizione'], style: kTitleTextStyle),
         backgroundColor: Colors.transparent,
         elevation: 0,
+        centerTitle: true,
       ),
       body: Container(
         decoration: kPoliticappBackGroundTheme,

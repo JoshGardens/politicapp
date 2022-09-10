@@ -16,6 +16,7 @@ class InformationScreen extends StatelessWidget {
         ),
         backgroundColor: Colors.transparent,
         elevation: 0,
+        centerTitle: true,
       ),
       body: Container(
         decoration: kPoliticappBackGroundTheme,

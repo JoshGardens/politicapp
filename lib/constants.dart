@@ -61,3 +61,23 @@ const kParagraphTextStyle = TextStyle(
   fontSize: 17,
   fontWeight: FontWeight.bold,
 );
+
+//Card Styles
+
+const kCardSubtitleTextStyle = TextStyle(
+  color: Color.fromARGB(255, 2, 39, 95),
+  fontSize: 23,
+  fontWeight: FontWeight.w700,
+);
+
+const kCardSubSubtitleTextStyle = TextStyle(
+  color: Color.fromARGB(255, 2, 39, 95),
+  fontSize: 18,
+  fontWeight: FontWeight.w700,
+);
+
+const kCardParagraphTextStyle = TextStyle(
+  color: Color.fromARGB(255, 2, 39, 95),
+  fontSize: 17,
+  fontWeight: FontWeight.bold,
+);

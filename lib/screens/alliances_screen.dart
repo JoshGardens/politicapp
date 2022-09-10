@@ -7,6 +7,7 @@ import '../details/party_data.dart';
 import '../components/party_modal_bottom_sheet.dart';
 import '../constants.dart';
 import '../party_screen_arguments.dart';
+import 'alliance_cards_screen.dart';
 
 class AlliancesScreen extends StatelessWidget {
   static const String id = 'alliances_screen';
@@ -22,6 +23,7 @@ class AlliancesScreen extends StatelessWidget {
         ),
         backgroundColor: Colors.transparent,
         elevation: 0,
+        centerTitle: true,
       ),
       body: Container(
         decoration: kPoliticappBackGroundTheme,
@@ -95,7 +97,11 @@ class AlliancesScreen extends StatelessWidget {
                 buttonTitle: 'Unione Popolare',
                 buttonImage: const AssetImage('images/unione_popolare.png'),
                 buttonOnPressed: () {
-                  partyModalBottomSheet(context);
+                  Navigator.pushNamed(
+                    context,
+                    AllianceCardsScreen.id,
+                    arguments: PartyScreenArguments(kUnionePopolare),
+                  );
                 },
               ),
             ],
