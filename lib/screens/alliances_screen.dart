@@ -121,7 +121,7 @@ class AlliancesScreen extends StatelessWidget {
                   buttonOnPressed: () {
                     Navigator.pushNamed(
                       context,
-                      AllianceCardsScreen.id,
+                      AllianceDetailScreen.id,
                       arguments: PartyScreenArguments(kUnionePopolare),
                     );
                   },

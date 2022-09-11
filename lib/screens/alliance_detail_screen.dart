@@ -67,7 +67,10 @@ class _AllianceDetailScreenState extends State<AllianceDetailScreen> {
                       textAlign: TextAlign.center,
                     ),
                     kSloganSizedBox,
-                    Text(args.partyData['Intro'], style: kParagraphTextStyle),
+                    Text(
+                      args.partyData['Intro'],
+                      style: kParagraphTextStyle,
+                    ),
                     kPostPartyDetailsSizedBox,
                     const Text(
                       'POLITICA ESTERA',

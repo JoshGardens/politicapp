@@ -83,7 +83,7 @@ class _SplashScreenState extends State<SplashScreen> {
                     'MANCANO',
                     style: kSubSubtitleTextStyle,
                   ),
-                  kSloganSizedBox,
+                  kPartyButtonsSizedBox,
                   Column(
                     children: [
                       TimerCountdown(
@@ -106,7 +106,7 @@ class _SplashScreenState extends State<SplashScreen> {
                       ),
                     ],
                   ),
-                  kSloganSizedBox,
+                  kPartyButtonsSizedBox,
                   const Text(
                     'ALLE ELEZIONI 2022',
                     style: kSubSubtitleTextStyle,
