@@ -30,6 +30,7 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
             Padding(
               padding: const EdgeInsets.all(20.0),
               child: FadeIn(
+                duration: const Duration(milliseconds: 1000),
                 child: const Text(
                   'PoliticApp',
                   style: TextStyle(

@@ -31,40 +31,22 @@ class _SplashScreenState extends State<SplashScreen> {
     final electionsDay = DateTime.parse('2022-09-25 07:00:00');
     int timeLeftInDays = (electionsDay.difference(now)).inDays;
 
-    if (timeLeftInDays < 0) {
+    if (timeLeftInDays <= 0) {
       return Scaffold(
         body: Container(
           decoration: kPoliticappBackGroundTheme,
           child: Center(
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: const [
-                Text(
-                  'LE URNE SONO CHIUSE',
-                  style: kTitleTextStyle,
-                ),
-              ],
-            ),
-          ),
-        ),
-      );
-    } else if (timeLeftInDays == 0) {
-      return Scaffold(
-        body: Container(
-          decoration: kPoliticappBackGroundTheme,
-          child: Center(
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: const [
-                Text(
-                  'LE URNE SONO APERTE\n',
-                  style: kTitleTextStyle,
-                ),
-                Text(
-                  '\u00C8 possibile andare a votare',
-                  style: kSubtitleTextStyle,
-                ),
-              ],
+            child: FadeIn(
+              duration: const Duration(milliseconds: 1000),
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  SizedBox(
+                    width: 200.0,
+                    child: Image.asset('images/pa_splash.png'),
+                  ),
+                ],
+              ),
             ),
           ),
         ),
