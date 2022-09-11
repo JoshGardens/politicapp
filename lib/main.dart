@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:politicapp/screens/alliance_detail_screen.dart';
 import 'package:politicapp/screens/alliances_screen.dart';
 import 'package:politicapp/screens/information_screen.dart';
+import 'package:politicapp/screens/splash_screen.dart';
 import 'screens/alliance_cards_screen.dart';
 import 'screens/welcome_screen.dart';
 
@@ -14,8 +15,9 @@ class PoliticApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      initialRoute: WelcomeScreen.id,
+      initialRoute: SplashScreen.id,
       routes: {
+        SplashScreen.id: (context) => SplashScreen(),
         WelcomeScreen.id: (context) => WelcomeScreen(),
         AlliancesScreen.id: (context) => AlliancesScreen(),
         InformationScreen.id: (context) => InformationScreen(),

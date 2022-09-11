@@ -30,14 +30,8 @@ class ShowLinksDetails extends StatelessWidget {
                   color: Color.fromARGB(255, 2, 39, 95),
                 ),
               ),
-              const SizedBox(
-                height: 20,
-              ),
               const Text(
-                'Oltre ai programmi ufficiali di partiti e coalizioni, le seguenti fonti sono state prese come punto di riferimento per la stesura dei contenuti dell\'app:',
-                style: TextStyle(
-                  color: Color.fromARGB(255, 2, 39, 95),
-                ),
+                '\nLe seguenti fonti sono state prese come punto di riferimento per la stesura dei contenuti dell\'app:',
               ),
               const SizedBox(height: 10),
               Text.rich(
@@ -65,7 +59,7 @@ class ShowLinksDetails extends StatelessWidget {
                 height: 5,
               ),
               Text.rich(
-                textGov,
+                textSpanGov,
               ),
               const SizedBox(height: 20),
             ],

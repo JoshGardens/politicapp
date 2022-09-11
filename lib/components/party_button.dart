@@ -42,6 +42,9 @@ class PartyButton extends StatelessWidget {
                     fontWeight: FontWeight.bold,
                   ),
                 ),
+                const SizedBox(
+                  height: 5,
+                ),
                 Image(
                   image: buttonImage,
                   height: 125,

@@ -53,7 +53,7 @@ const Map<String, String> kCentroSinistra = {
 
 const Map<String, String> kTerzoPolo = {
   'Coalizione': 'Terzo Polo',
-  'Slogan': '"Renew Europe, L\'Italia, sul serio"',
+  'Slogan': '"Renew Europe\nL\'Italia, sul serio"',
   'Intro':
       'La coalizione Azione - Italia Viva, definita “Terzo Polo”, è un’alleanza politica di stampo social-liberale, europeista, atlantista e progressista. \u00C8 guidata dai leader dei due partiti Carlo Calenda e Matteo Renzi.',
   'Politica Estera':
