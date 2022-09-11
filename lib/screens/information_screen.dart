@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../constants.dart';
+import '../url_links.dart';
 
 class InformationScreen extends StatefulWidget {
   static const String id = 'information_screen';
@@ -182,52 +183,57 @@ class _InformationScreenState extends State<InformationScreen> {
                       style: kSubSubtitleTextStyle,
                     ),
                     RichText(
-                      text: const TextSpan(
+                      text: TextSpan(
                         style: kParagraphTextStyle,
                         children: [
-                          TextSpan(
+                          const TextSpan(
                               text:
                                   '\nIl voto è valido se si traccia una X:\n\n\u2022 '),
-                          TextSpan(
+                          const TextSpan(
                               text: 'Sul nome del candidato ',
                               style: TextStyle(fontStyle: FontStyle.italic)),
-                          TextSpan(
+                          const TextSpan(
                               text:
                                   'all\'uninominale. In questo caso, il voto sarà ripartito anche tra tutte le liste indicate sotto il suo nome, in proporzione rispetto a tutti i voti ottenuti in quel collegio\n\u2022 '),
-                          TextSpan(
+                          const TextSpan(
                               text: 'Sul simbolo della lista',
                               style: TextStyle(fontStyle: FontStyle.italic)),
-                          TextSpan(
+                          const TextSpan(
                               text:
                                   ', o di una delle liste, presente nei riquadri del proporzionale. In quel caso, il voto è assegnato automaticamente anche al candidato nel collegio uninominale che è sostenuto da quella lista\n\u2022 '),
-                          TextSpan(
+                          const TextSpan(
                               text: 'Sia sul nome di un candidato',
                               style: TextStyle(fontStyle: FontStyle.italic)),
-                          TextSpan(text: ' al collegio uninominale, '),
-                          TextSpan(
+                          const TextSpan(text: ' al collegio uninominale, '),
+                          const TextSpan(
                               text: 'sia su una delle liste che lo sostengono',
                               style: TextStyle(fontStyle: FontStyle.italic)),
-                          TextSpan(text: '\n\u2022 '),
-                          TextSpan(
+                          const TextSpan(text: '\n\u2022 '),
+                          const TextSpan(
                               text:
                                   'Sia sul simbolo della lista, sia sull\'elenco di nomi al suo fianco',
                               style: TextStyle(fontStyle: FontStyle.italic)),
-                          TextSpan(
+                          const TextSpan(
                               text:
                                   '. In questo caso, il voto viene assegnato anche al candidato nell\'uninominale.\n'),
-                          TextSpan(text: '\nIl voto è nullo se:\n\n\u2022 '),
-                          TextSpan(
+                          const TextSpan(
+                              text: '\nIl voto è nullo se:\n\n\u2022 '),
+                          const TextSpan(
                               text:
                                   'Non si utilizza la particolare matita copiativa fornita dal presidente del seggio\n\u2022 '),
-                          TextSpan(
+                          const TextSpan(
                               text:
                                   'La scheda presenta segni di riconoscimento, come disegni o scritte\n\u2022 '),
-                          TextSpan(
+                          const TextSpan(
                               text:
                                   'Si riportano più voti di quanti è possibile farne (ad esempio votando per più di un candidato uninominale o per più di una lista plurinominale)\n\u2022 '),
-                          TextSpan(
+                          const TextSpan(
                               text:
                                   'Si traccia una X sul nome di un candidato al collegio uninominale e un\'altra X sul simbolo di una lista diversa da quella o quelle che lo sostengono. Il Rosatellum, infatti, non prevede il voto disgiunto.\n'),
+                          const TextSpan(
+                              text:
+                                  '\nEsempi pratici e FAC-SIMILE delle schede elettorali possono essere consultabili '),
+                          textSpanEsempiSchede,
                         ],
                       ),
                     ),
