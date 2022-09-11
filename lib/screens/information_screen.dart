@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import '../constants.dart';
-import 'welcome_screen.dart';
 
 class InformationScreen extends StatefulWidget {
   static const String id = 'information_screen';

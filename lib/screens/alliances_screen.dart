@@ -1,10 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:politicapp/components/party_button.dart';
 import 'package:politicapp/screens/alliance_detail_screen.dart';
-import 'package:politicapp/details/show_alliance_details.dart';
-
 import '../details/party_data.dart';
-import '../components/party_modal_bottom_sheet.dart';
 import '../constants.dart';
 import '../party_screen_arguments.dart';
 import 'alliance_cards_screen.dart';

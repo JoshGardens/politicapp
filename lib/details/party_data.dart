@@ -28,7 +28,7 @@ const Map<String, String> kCentroSinistra = {
   'Coalizione': 'Centrosinistra',
   'Slogan': '"Insieme per un\'Italia Democratica e Progressista"',
   'Intro':
-      'La coalizione di Centrosinistra è un\’alleanza politica che conta partiti di stampo progressista-europeista, ambientalista e social-democratico.\n\u00C8 guidata dai leader dei partiti più rappresentativi Enrico Letta, Angelo Bonelli, Emma Bonino e Luigi Di Maio.',
+      'La coalizione di Centrosinistra è un\'alleanza politica che conta partiti di stampo progressista-europeista, ambientalista e social-democratico.\n\u00C8 guidata dai leader dei partiti più rappresentativi Enrico Letta, Angelo Bonelli, Emma Bonino e Luigi Di Maio.',
   'Politica Estera':
       '\u2022 Forte integrazione con l’Unione Europea e riforma dei trattati per abolire il diritto di veto \n\u2022 Mantenimento delle alleanze occidentali e sostegno all’Ucraina contro l\'aggressione della Russia \n\u2022 Proposta molto moderata di «parametrare» il Patto di stabilità',
   'Economia e Welfare':
