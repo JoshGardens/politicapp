@@ -2,6 +2,8 @@ import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
 import 'package:politicapp/screens/welcome_screen.dart';
 
+import 'package:flutter_timer_countdown/flutter_timer_countdown.dart';
+
 import '../constants.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -72,38 +74,42 @@ class _SplashScreenState extends State<SplashScreen> {
         body: Container(
           decoration: kPoliticappBackGroundTheme,
           child: Center(
-            child: ZoomIn(
+            child: FadeIn(
+              duration: const Duration(milliseconds: 1000),
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Text(
-                    timeLeftInDays != 1 ? 'Mancano' : 'Manca',
-                    style: kSubtitleTextStyle,
+                  const Text(
+                    'MANCANO',
+                    style: kSubSubtitleTextStyle,
                   ),
                   kSloganSizedBox,
                   Column(
                     children: [
-                      Text(
-                        timeLeftInDays.toString(),
-                        style: const TextStyle(
+                      TimerCountdown(
+                        endTime: electionsDay,
+                        format: CountDownTimerFormat.daysHoursMinutesSeconds,
+                        timeTextStyle: const TextStyle(
+                            color: Colors.white,
+                            fontSize: 50,
+                            fontWeight: FontWeight.w700),
+                        descriptionTextStyle: const TextStyle(
                           color: Colors.white,
-                          fontSize: 100,
-                          fontWeight: FontWeight.w700,
+                        ),
+                        colonsTextStyle: const TextStyle(
+                          color: Colors.white,
+                          fontSize: 50,
                         ),
                       ),
                       const SizedBox(
                         height: 5,
                       ),
-                      Text(
-                        timeLeftInDays != 1 ? 'GIORNI' : 'GIORNO',
-                        style: kSubSubtitleTextStyle,
-                      )
                     ],
                   ),
                   kSloganSizedBox,
                   const Text(
-                    'alle elezioni 2022',
-                    style: kSubtitleTextStyle,
+                    'ALLE ELEZIONI 2022',
+                    style: kSubSubtitleTextStyle,
                   )
                 ],
               ),
