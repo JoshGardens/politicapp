@@ -27,15 +27,14 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            Padding(
-              padding: const EdgeInsets.all(20.0),
+            Center(
               child: FadeIn(
                 duration: const Duration(milliseconds: 1000),
                 child: const Text(
                   'PoliticApp',
                   style: TextStyle(
                     fontFamily: 'Tangerine',
-                    fontSize: 100.0,
+                    fontSize: 90.0,
                     color: Colors.white,
                     fontWeight: FontWeight.w900,
                   ),
