@@ -31,103 +31,40 @@ class ShowPartyProgramDetails extends StatelessWidget {
                 ),
               ),
               const Text(
-                  '\nI programmi completi possono essere trovati ai seguenti link:'),
+                  '\nI programmi completi possono essere consultati ai seguenti link:'),
               const SizedBox(height: 10),
-              const Text(
-                'Centrodestra',
-                style: TextStyle(fontWeight: FontWeight.bold),
-              ),
-              const SizedBox(
-                height: 5,
-              ),
               Text.rich(
                 programmaCDX,
               ),
               const SizedBox(height: 10),
-              const Text(
-                'Partito Democratico',
-                style: TextStyle(fontWeight: FontWeight.bold),
-              ),
-              const SizedBox(
-                height: 5,
-              ),
               Text.rich(
                 programmaPD,
               ),
               const SizedBox(height: 10),
-              const Text(
-                'Alleanza Verdi - Sinistra',
-                style: TextStyle(fontWeight: FontWeight.bold),
-              ),
-              const SizedBox(
-                height: 5,
-              ),
               Text.rich(
                 programmaVerdiSX,
               ),
               const SizedBox(height: 10),
-              const Text(
-                '+Europa',
-                style: TextStyle(fontWeight: FontWeight.bold),
-              ),
-              const SizedBox(
-                height: 5,
-              ),
               Text.rich(
                 programmaPiuEu,
               ),
               const SizedBox(height: 10),
-              const Text(
-                'Impegno Civico',
-                style: TextStyle(fontWeight: FontWeight.bold),
-              ),
-              const SizedBox(
-                height: 5,
-              ),
               Text.rich(
                 programmaImpCiv,
               ),
               const SizedBox(height: 10),
-              const Text(
-                'Terzo Polo',
-                style: TextStyle(fontWeight: FontWeight.bold),
-              ),
-              const SizedBox(
-                height: 5,
-              ),
               Text.rich(
                 programmaTerzoPolo,
               ),
               const SizedBox(height: 10),
-              const Text(
-                'MoVimento 5 Stelle',
-                style: TextStyle(fontWeight: FontWeight.bold),
-              ),
-              const SizedBox(
-                height: 5,
-              ),
               Text.rich(
                 programmaMovCinqueStelle,
               ),
               const SizedBox(height: 10),
-              const Text(
-                'ItalExit',
-                style: TextStyle(fontWeight: FontWeight.bold),
-              ),
-              const SizedBox(
-                height: 5,
-              ),
               Text.rich(
                 programmaItalExit,
               ),
               const SizedBox(height: 10),
-              const Text(
-                'Unione Popolare',
-                style: TextStyle(fontWeight: FontWeight.bold),
-              ),
-              const SizedBox(
-                height: 5,
-              ),
               Text.rich(
                 programmaUnPop,
               ),

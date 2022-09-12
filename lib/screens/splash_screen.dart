@@ -35,18 +35,19 @@ class _SplashScreenState extends State<SplashScreen> {
       return Scaffold(
         body: Container(
           decoration: kPoliticappBackGroundTheme,
-          child: Center(
-            child: FadeIn(
-              duration: const Duration(milliseconds: 1000),
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  SizedBox(
-                    width: 200.0,
-                    child: Image.asset('images/pa_splash.png'),
-                  ),
-                ],
-              ),
+          child: FadeIn(
+            duration: const Duration(milliseconds: 1000),
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                SizedBox(
+                  width: MediaQuery.of(context).size.width,
+                ),
+                SizedBox(
+                  width: MediaQuery.of(context).size.width * 0.4,
+                  child: Image.asset('images/pa_splash.png'),
+                ),
+              ],
             ),
           ),
         ),
@@ -66,27 +67,20 @@ class _SplashScreenState extends State<SplashScreen> {
                     style: kSubSubtitleTextStyle,
                   ),
                   kPartyButtonsSizedBox,
-                  Column(
-                    children: [
-                      TimerCountdown(
-                        endTime: electionsDay,
-                        format: CountDownTimerFormat.daysHoursMinutesSeconds,
-                        timeTextStyle: const TextStyle(
-                            color: Colors.white,
-                            fontSize: 50,
-                            fontWeight: FontWeight.w700),
-                        descriptionTextStyle: const TextStyle(
-                          color: Colors.white,
-                        ),
-                        colonsTextStyle: const TextStyle(
-                          color: Colors.white,
-                          fontSize: 50,
-                        ),
-                      ),
-                      const SizedBox(
-                        height: 5,
-                      ),
-                    ],
+                  TimerCountdown(
+                    endTime: electionsDay,
+                    format: CountDownTimerFormat.daysHoursMinutesSeconds,
+                    timeTextStyle: const TextStyle(
+                        color: Colors.white,
+                        fontSize: 40,
+                        fontWeight: FontWeight.w700),
+                    descriptionTextStyle: const TextStyle(
+                      color: Colors.white,
+                    ),
+                    colonsTextStyle: const TextStyle(
+                      color: Colors.white,
+                      fontSize: 40,
+                    ),
                   ),
                   kPartyButtonsSizedBox,
                   const Text(

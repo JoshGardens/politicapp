@@ -147,10 +147,11 @@ var textSpanGov = TextSpan(
 
 var programmaCDX = TextSpan(
     style: const TextStyle(
-        color: Colors.blue, decoration: TextDecoration.underline),
+        color: Colors.blue,
+        decoration: TextDecoration.underline,
+        fontWeight: FontWeight.bold),
     //make link blue and underline
-    text:
-        "http://www.forzaitalia.it/speciali/PER_L_ITALIA_Accordo_quadro_di_programma_per_un_Governo_di_centrodestra.pdf",
+    text: "Centrodestra",
     recognizer: TapGestureRecognizer()
       ..onTap = () async {
         //on tap code here, you can navigate to other page or URL
@@ -171,10 +172,11 @@ var programmaCDX = TextSpan(
 
 var programmaPD = TextSpan(
     style: const TextStyle(
-        color: Colors.blue, decoration: TextDecoration.underline),
+        color: Colors.blue,
+        decoration: TextDecoration.underline,
+        fontWeight: FontWeight.bold),
     //make link blue and underline
-    text:
-        "https://www.partitodemocratico.it/wp-content/uploads/AGGIORNAMENTO-PROGRAMMA_INSIEMEPERUNITALIADEMOCRATICAEPROGRESSISTA_250822-1.pdf",
+    text: "Partito Democratico",
     recognizer: TapGestureRecognizer()
       ..onTap = () async {
         //on tap code here, you can navigate to other page or URL
@@ -195,9 +197,11 @@ var programmaPD = TextSpan(
 
 var programmaVerdiSX = TextSpan(
     style: const TextStyle(
-        color: Colors.blue, decoration: TextDecoration.underline),
+        color: Colors.blue,
+        decoration: TextDecoration.underline,
+        fontWeight: FontWeight.bold),
     //make link blue and underline
-    text: "https://verdisinistra.it/programma/",
+    text: "Alleanza Verdi - Sinistra",
     recognizer: TapGestureRecognizer()
       ..onTap = () async {
         //on tap code here, you can navigate to other page or URL
@@ -215,10 +219,11 @@ var programmaVerdiSX = TextSpan(
 
 var programmaPiuEu = TextSpan(
     style: const TextStyle(
-        color: Colors.blue, decoration: TextDecoration.underline),
+        color: Colors.blue,
+        decoration: TextDecoration.underline,
+        fontWeight: FontWeight.bold),
     //make link blue and underline
-    text:
-        "https://www.piueuropa.eu/una_generazione_avanti_il_programma_elettorale_di_europa",
+    text: "+Europa",
     recognizer: TapGestureRecognizer()
       ..onTap = () async {
         //on tap code here, you can navigate to other page or URL
@@ -238,10 +243,11 @@ var programmaPiuEu = TextSpan(
 
 var programmaImpCiv = TextSpan(
     style: const TextStyle(
-        color: Colors.blue, decoration: TextDecoration.underline),
+        color: Colors.blue,
+        decoration: TextDecoration.underline,
+        fontWeight: FontWeight.bold),
     //make link blue and underline
-    text:
-        "https://www.impegno-civico.it/wp-content/uploads/2022/09/Programma-politico_Impegno-Civico.pdf",
+    text: "Impegno Civico",
     recognizer: TapGestureRecognizer()
       ..onTap = () async {
         //on tap code here, you can navigate to other page or URL
@@ -262,10 +268,11 @@ var programmaImpCiv = TextSpan(
 
 var programmaTerzoPolo = TextSpan(
     style: const TextStyle(
-        color: Colors.blue, decoration: TextDecoration.underline),
+        color: Colors.blue,
+        decoration: TextDecoration.underline,
+        fontWeight: FontWeight.bold),
     //make link blue and underline
-    text:
-        "https://www.litaliasulserio.it/wp-content/uploads/2022/08/programma-elettorale.pdf",
+    text: "Terzo Polo",
     recognizer: TapGestureRecognizer()
       ..onTap = () async {
         //on tap code here, you can navigate to other page or URL
@@ -285,10 +292,11 @@ var programmaTerzoPolo = TextSpan(
 
 var programmaMovCinqueStelle = TextSpan(
     style: const TextStyle(
-        color: Colors.blue, decoration: TextDecoration.underline),
+        color: Colors.blue,
+        decoration: TextDecoration.underline,
+        fontWeight: FontWeight.bold),
     //make link blue and underline
-    text:
-        "https://www.movimento5stelle.eu/wp-content/uploads/2022/08/ProgrammaM5S_politiche2022.pdf",
+    text: "MoVimento 5 Stelle",
     recognizer: TapGestureRecognizer()
       ..onTap = () async {
         //on tap code here, you can navigate to other page or URL
@@ -308,10 +316,11 @@ var programmaMovCinqueStelle = TextSpan(
 
 var programmaItalExit = TextSpan(
     style: const TextStyle(
-        color: Colors.blue, decoration: TextDecoration.underline),
+        color: Colors.blue,
+        decoration: TextDecoration.underline,
+        fontWeight: FontWeight.bold),
     //make link blue and underline
-    text:
-        "https://italexitperlitalia.it/wp-content/uploads/2022/08/programma.pdf",
+    text: "ItalExit",
     recognizer: TapGestureRecognizer()
       ..onTap = () async {
         //on tap code here, you can navigate to other page or URL
@@ -331,9 +340,11 @@ var programmaItalExit = TextSpan(
 
 var programmaUnPop = TextSpan(
     style: const TextStyle(
-        color: Colors.blue, decoration: TextDecoration.underline),
+        color: Colors.blue,
+        decoration: TextDecoration.underline,
+        fontWeight: FontWeight.bold),
     //make link blue and underline
-    text: "https://unionepopolare.blog/programma/programma-esteso/",
+    text: "Unione Popolare",
     recognizer: TapGestureRecognizer()
       ..onTap = () async {
         //on tap code here, you can navigate to other page or URL

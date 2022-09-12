@@ -55,9 +55,7 @@ class _AllianceDetailScreenState extends State<AllianceDetailScreen> {
             body: Container(
               decoration: kPoliticappBackGroundTheme,
               child: Padding(
-                padding: const EdgeInsets.symmetric(
-                  vertical: 100,
-                ),
+                padding: const EdgeInsets.fromLTRB(0, 100, 0, 30),
                 child: ListView(
                   padding: kListViewPadding,
                   children: [

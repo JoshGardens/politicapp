@@ -5,7 +5,6 @@ import 'package:politicapp/screens/alliance_detail_screen.dart';
 import '../details/party_data.dart';
 import '../constants.dart';
 import '../party_screen_arguments.dart';
-import 'alliance_cards_screen.dart';
 
 class AlliancesScreen extends StatelessWidget {
   static const String id = 'alliances_screen';
@@ -16,7 +15,7 @@ class AlliancesScreen extends StatelessWidget {
       extendBodyBehindAppBar: true,
       appBar: AppBar(
         title: const Text(
-          'Coalizioni e Partiti',
+          'Coalizioni',
           style: kTitleTextStyle,
         ),
         backgroundColor: Colors.transparent,
@@ -26,8 +25,7 @@ class AlliancesScreen extends StatelessWidget {
       body: Container(
         decoration: kPoliticappBackGroundTheme,
         child: Padding(
-          padding:
-              const EdgeInsets.symmetric(horizontal: 40.0, vertical: 110.0),
+          padding: const EdgeInsets.fromLTRB(30, 100, 30, 30),
           child: ListView(
             padding: kListViewPadding,
             children: [

@@ -31,32 +31,32 @@ const kPostPartyDetailsSizedBox = SizedBox(
 
 const kTitleTextStyle = TextStyle(
   color: Colors.white,
-  fontSize: 33,
+  fontSize: 27,
   fontWeight: FontWeight.w700,
 );
 
 const kSloganTextStyle = TextStyle(
   color: Colors.white,
-  fontSize: 40,
+  fontSize: 36,
   fontWeight: FontWeight.w700,
   fontFamily: 'Cookie',
 );
 
 const kSubtitleTextStyle = TextStyle(
   color: Colors.white,
-  fontSize: 23,
+  fontSize: 21,
   fontWeight: FontWeight.w700,
 );
 
 const kSubSubtitleTextStyle = TextStyle(
   color: Colors.white,
-  fontSize: 18,
+  fontSize: 17,
   fontWeight: FontWeight.w700,
 );
 
 const kParagraphTextStyle = TextStyle(
   color: Colors.white,
-  fontSize: 17,
+  fontSize: 15,
   fontWeight: FontWeight.bold,
 );
 

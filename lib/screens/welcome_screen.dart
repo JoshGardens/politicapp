@@ -24,60 +24,59 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
       body: Container(
         decoration: kPoliticappBackGroundTheme,
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            Center(
-              child: FadeIn(
-                duration: const Duration(milliseconds: 1000),
-                child: const Text(
-                  'PoliticApp',
-                  style: TextStyle(
-                    fontFamily: 'Tangerine',
-                    fontSize: 90.0,
-                    color: Colors.white,
-                    fontWeight: FontWeight.w900,
+            Column(
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: [
+                FadeIn(
+                  duration: const Duration(milliseconds: 1000),
+                  child: const Text(
+                    'PoliticApp',
+                    style: TextStyle(
+                      fontFamily: 'Tangerine',
+                      fontSize: 70.0,
+                      color: Colors.white,
+                      fontWeight: FontWeight.w900,
+                    ),
                   ),
                 ),
-              ),
-            ),
-            const SizedBox(
-              height: 10,
-            ),
-            AnimatedTextKit(
-              animatedTexts: [
-                TyperAnimatedText(
-                  'La tua guida alle elezioni 2022',
-                  textAlign: TextAlign.center,
-                  textStyle: const TextStyle(
-                    fontSize: 20,
-                    color: Colors.white,
-                    fontWeight: FontWeight.bold,
-                  ),
+                AnimatedTextKit(
+                  animatedTexts: [
+                    TyperAnimatedText(
+                      'La tua guida alle elezioni 2022',
+                      textAlign: TextAlign.center,
+                      textStyle: const TextStyle(
+                        fontSize: 16,
+                        color: Colors.white,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                  ],
+                  totalRepeatCount: 3,
+                  pause: const Duration(seconds: 5),
                 ),
               ],
-              totalRepeatCount: 3,
-              pause: const Duration(seconds: 5),
             ),
-            const SizedBox(
-              height: 150,
+            Column(
+              crossAxisAlignment: CrossAxisAlignment.stretch,
+              children: [
+                RoundedButton(
+                  buttonTitle: 'Coalizioni e Partiti',
+                  buttonOnPressed: () {
+                    Navigator.pushNamed(context, AlliancesScreen.id);
+                  },
+                ),
+                RoundedButton(
+                  buttonTitle: 'Linee Operative',
+                  buttonOnPressed: () {
+                    Navigator.pushNamed(context, InformationScreen.id);
+                  },
+                ),
+              ],
             ),
-            RoundedButton(
-              buttonTitle: 'Coalizioni e Partiti',
-              buttonOnPressed: () {
-                Navigator.pushNamed(context, AlliancesScreen.id);
-              },
-            ),
-            RoundedButton(
-              buttonTitle: 'Linee Operative',
-              buttonOnPressed: () {
-                Navigator.pushNamed(context, InformationScreen.id);
-              },
-            ),
-            const SizedBox(
-              height: 150,
-            ),
-            Row(
+            Column(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
                 TextButton(
