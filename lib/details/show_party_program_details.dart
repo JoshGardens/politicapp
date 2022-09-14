@@ -31,40 +31,40 @@ class ShowPartyProgramDetails extends StatelessWidget {
                 ),
               ),
               const Text(
-                  '\nI programmi completi possono essere consultati ai seguenti link:'),
+                  '\nI programmi completi possono essere consultati nei rispettivi siti ufficiali tramite i seguenti link:'),
               const SizedBox(height: 10),
               Text.rich(
                 programmaCDX,
               ),
-              const SizedBox(height: 10),
+              const SizedBox(height: 20),
               Text.rich(
                 programmaPD,
               ),
-              const SizedBox(height: 10),
+              const SizedBox(height: 20),
               Text.rich(
                 programmaVerdiSX,
               ),
-              const SizedBox(height: 10),
+              const SizedBox(height: 20),
               Text.rich(
                 programmaPiuEu,
               ),
-              const SizedBox(height: 10),
+              const SizedBox(height: 20),
               Text.rich(
                 programmaImpCiv,
               ),
-              const SizedBox(height: 10),
+              const SizedBox(height: 20),
               Text.rich(
                 programmaTerzoPolo,
               ),
-              const SizedBox(height: 10),
+              const SizedBox(height: 20),
               Text.rich(
                 programmaMovCinqueStelle,
               ),
-              const SizedBox(height: 10),
+              const SizedBox(height: 20),
               Text.rich(
                 programmaItalExit,
               ),
-              const SizedBox(height: 10),
+              const SizedBox(height: 20),
               Text.rich(
                 programmaUnPop,
               ),

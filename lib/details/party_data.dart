@@ -8,7 +8,7 @@ const Map<String, String> kCentroDestra = {
   'Economia e Welfare':
       '\u2022 Innalzamento del limite di uso del denaro contante (attualmente di 2000 euro) allineandolo alla media dell’Unione Europea (di 5300 euro) \n\n\u2022 Bonus edilizi: salvaguardia delle situazioni in essere, riordino degli incentivi per la riqualificazione, messa in sicurezza ed efficientamento energetico degli immobili residenziali pubblici e privati \n\n\u2022 Agevolazioni per l\'accesso al mutuo per l\'acquisto della prima casa per le giovani coppie',
   'Lavoro':
-      '\u2022 Abolizione del reddito di cittadinanza e sostituzione con “misure più efficaci di inclusione sociale e di politiche attive di formazione e di inserimento nel mondo del lavoro” \n\n\u2022 Defiscalizazione dei nuovi assunti \n\n\u2022 Estensione della possibilit\u00E0 di utilizzo dei voucher, in particolar modo per i settori del turismo e dell\'agricoltura',
+      '\u2022 Abolizione del reddito di cittadinanza e sostituzione con “misure più efficaci di inclusione sociale e di politiche attive di formazione e di inserimento nel mondo del lavoro” \n\n\u2022 Defiscalizzazione dei nuovi assunti \n\n\u2022 Estensione della possibilit\u00E0 di utilizzo dei voucher, in particolar modo per i settori del turismo e dell\'agricoltura',
   'Fiscalità':
       '\u2022 Pace fiscale, cioè promozione di sistemi per risolvere rapidamente la situazione di chi ha debiti pregressi con l\'Agenzia Delle Entrate \n\n\u2022 Estensione Flat Tax (aliquota IRPEF uguale per tutti a sostituzione delle aliquote progressive e a scaglioni attualmente esistenti) a partite Iva fino a 100.000 euro di fatturato e su incremento di reddito rispetto alle annualit\u00E0 precedenti, con prospettiva di ulteriore ampliamento per famiglie e imprese \n\n\u2022 Calmierare i prezzi sui beni di prima necessit\u00E0 e sui prodotti energetici riducendo l\'IVA',
   'Pensioni':
@@ -109,7 +109,7 @@ const Map<String, String> kItalexit = {
   'Coalizione': 'ItalExit',
   'Slogan': '"Per l\'Italia che non molla mai"',
   'Intro':
-      'ItalExit è un partito politico di stampo euroscettico, sovranista e populista. \u00C8 guidata dal leader Gianluigi Paragone.',
+      'ItalExit è un partito politico di stampo euroscettico, sovranista e populista. \u00C8 guidato dal leader Gianluigi Paragone.',
   'Politica Estera':
       '\u2022 Fuori l\'Italia dall\'Unione Europea \n\n\u2022 Stop all\'invio di armi all\'Ucraina',
   'Economia e Welfare':
@@ -152,7 +152,7 @@ const Map<String, String> kUnionePopolare = {
   'Sanità':
       '\u2022 Ricostruzione del Servizio Sanitario Nazionale unico per tutte le regioni, superando la controriforma del 2001, eliminando l’aziendalizzazione e tornando alle USL con controllo democratico del territorio \n\n\u2022 Assicurare una spesa pubblica nella sanità che non scenda sotto il 7.3% ',
   'Ambiente':
-      '"Rispettare e superare gli impegni nazionali di riduzione delle emissioni dell\'Accordo di Parigi (accordo globale che persegue l\'obiettivo di limitare il riscaldamento medio globale annuo, puntando a un aumento massimo della temperatura pari a 1.5 gradi Celsius)',
+      '"Rispettare e superare gli impegni nazionali di riduzione delle emissioni dell\'Accordo di Parigi (accordo globale che persegue l\'obiettivo di limitare il riscaldamento medio globale annuo, puntando a un aumento massimo della temperatura pari a 1.5 gradi Celsius)"',
   'Diritti Civili':
       '\u2022 Matrimonio egualitario e omogenitorialità \n\n\u2022 Identità di genere (riforma legge 164) \n\n\u2022 Legge contro omobitransfobia \n\n\u2022 Legalizzazione della cannabis, delle droghe leggere e dell\'eutanasia ',
 };
